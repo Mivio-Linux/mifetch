@@ -1,5 +1,10 @@
 [package]
 name = "mifetch"
+description = "small fetch utility, written in ~28 lines of code. Made just for fun ;)"
+license = "MIT"
+repository = "https://gitea.com/miviodev/mifetch"
+keywords = ["cli", "fetch", "cross-platform", "fun"]
+categories = ["command-line-utilities"]
 version = "0.1.0"
 edition = "2024"
 
