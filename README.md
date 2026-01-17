@@ -41,6 +41,11 @@ USED RAM: 5.17GB
 SWAP: 7.75GB
 HOST: miviodev
 ```
+# Install
+to install you need `cargo`:
+```bash
+cargo install mifetch
+```
 # build
 ```bash
 git clone https://gitea.com/miviodev/mifetch.git
