@@ -18,30 +18,7 @@ To colorize in start every line add:
 `$7` - purple
 
 to add custom colors, you can add to `colors` (in 3 line) your colors.
-```
-                  ****           
-                ********          
-                ********         
-                 ******          
-                       _.,       
-@@@@@@        @@@@@@ @@@@@;      
-@@@@@@@      @@@@@@@ @@@@@@*     
-@@@@@@@@    @@@@@@@@  @@@@@@     
-@@@@@@@@@  @@@@@@@@@   @@@@@@    
-@@@@@@@@@@@@@@@@@@@@    @@@@@@   
-@@@@@@@@@@@@@@@@@@@@     @@@@@@  
-@@@@@@@@@@@@@@@@@@@@     @@@@@@# 
-@@@@@@ @@@@@@ @@@@@@      @@@@@@ 
-@@@@@@        @@@@@@       @@@@@@
-@@@@@@        @@@@@@        @@Y-*
-CPU: AMD Ryzen 5 2600 Six-Core Processor
-OS: Ubuntu
-RAM: 15.54GB
-USED RAM: 6.89GB
-SWAP: 4GB
-HOST: andr-MS-7C96
-
-```
+![use case](./image.png)
 # Install
 to install you need `cargo`:
 ```bash
