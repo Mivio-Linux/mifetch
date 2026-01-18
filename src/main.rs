@@ -7,8 +7,9 @@ fn main() {
     print_specs();
 } 
 fn print_specs() {
-    let mut sys = sysinfo::System::new_all();
-    sys.refresh_all();
+    let mut sys = sysinfo::System::new();
+    sys.refresh_memory();
+    sys.refresh_cpu();
 
     let os = sysinfo::System::name().unwrap_or("Unknown System".to_string());
     let ram = round::round(sys.total_memory() as f64/1073741824.0,2 );
