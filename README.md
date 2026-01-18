@@ -1,5 +1,5 @@
 # MiFetch
-## Mini fetch written in ~27 lines of code. Made just for fun
+## Minimal fetch written in ~40 lines of code. Made just for fun
 if you want to make custom ASCII, then you need open/create `/etc/mifetch/ascii.txt` and make ascii.
 To colorize in start every line add:
 
@@ -16,33 +16,31 @@ To colorize in start every line add:
 `$6` - yellow
 
 `$7` - purple
+
 to add custom colors, you can add to `colors` (in 3 line) your colors.
 ```
-                       :====:       _-
-                      -******=  ..:-++      
-                      -******=   ;***=      
-                       :====:      =*-      
-                                          
-                                            
-*********:         +*******-.:=+*#%#        
-%%%%%%%%%%-       *%#%%%%#%-=%%%###%*       
-##########%-     *%#######%- *######%=      
-###########%-  .*%########%- .#######%:     
-############%=.#%#########%-  :%#######.    
-##########################%-   -%#####%*    
-##########################%-    +%#####%+   
-##########################%-     *######%-  
-##########%########*######%-     .#######%: 
-########*.*%%%%%%%-:%#####%-      :%#######.
-#########  ------: -%#####%-       =%#%%###=
-#########          -%#####%-        **+-:''  
+                  ****           
+                ********          
+                ********         
+                 ******          
+                       _.,       
+@@@@@@        @@@@@@ @@@@@;      
+@@@@@@@      @@@@@@@ @@@@@@*     
+@@@@@@@@    @@@@@@@@  @@@@@@     
+@@@@@@@@@  @@@@@@@@@   @@@@@@    
+@@@@@@@@@@@@@@@@@@@@    @@@@@@   
+@@@@@@@@@@@@@@@@@@@@     @@@@@@  
+@@@@@@@@@@@@@@@@@@@@     @@@@@@# 
+@@@@@@ @@@@@@ @@@@@@      @@@@@@ 
+@@@@@@        @@@@@@       @@@@@@
+@@@@@@        @@@@@@        @@Y-*
+CPU: AMD Ryzen 5 2600 Six-Core Processor
+OS: Ubuntu
+RAM: 15.54GB
+USED RAM: 6.89GB
+SWAP: 4GB
+HOST: andr-MS-7C96
 
-CPU: Intel(R) Core(TM) i7-4810MQ CPU @ 2.80GHz
-OS: Arch Linux
-RAM: 15.49GB
-USED RAM: 5.17GB
-SWAP: 7.75GB
-HOST: miviodev
 ```
 # Install
 to install you need `cargo`:
