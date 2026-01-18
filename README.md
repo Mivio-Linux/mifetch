@@ -3,16 +3,19 @@
 if you want to make custom ASCII, then you need open/create `/etc/mifetch/ascii.txt` and make ascii.
 To colorize in start every line add:
 
-`$1` - red
+`$1` - white 
 
-`$2` - green
+`$2` - red
 
-`$3` - blue
+`$3` - green
 
-`$4` - yellow
+`$4` - blue
 
+`$5` - cyan
 
-`$5` - purple
+`$6` - yellow
+
+`$7` - purple
 to add custom colors, you can add to `colors` (in 3 line) your colors.
 ```
                        :====:       _-
