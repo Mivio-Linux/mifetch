@@ -1,4 +1,9 @@
 # MiFetch
+
+> ### ⚠️ Migrated to Codeberg
+>
+> This project has [migrated to Codeberg](https://codeberg.org/miviolinux).
+
 ## Minimal fetch written in ~40 lines of code. Made just for fun
 if you want to make custom ASCII, then you need open/create `/etc/mifetch/ascii.txt` and make ascii.
 To colorize in start every line add:
